@@ -1,4 +1,4 @@
-## Scaffolding
+## scaffolding
 ```bash
 $ npm init
 ```
