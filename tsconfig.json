@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "outDir": "./dist",      // <--- ADD THIS LINE
+    "rootDir": "./src",      // <--- RECOMMENDED: Tells tsc where your source is
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]    // <--- RECOMMENDED: Only compile files in src
+}
